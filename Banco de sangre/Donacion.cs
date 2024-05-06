@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutenticacionBancoDeSangre
+namespace Banco_de_sangre
 {
     internal class Donacion
     {

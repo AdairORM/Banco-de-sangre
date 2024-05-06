@@ -38,6 +38,7 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Donacion.cs" />
     <Compile Include="FormBanco.cs">
       <SubType>Form</SubType>
     </Compile>

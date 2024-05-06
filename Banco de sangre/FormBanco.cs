@@ -16,11 +16,12 @@ namespace Banco_de_sangre
             donaciones = new ArrayList();
         }
 
+        #region Metodos
         private void DonacionesDefault()
         {
             donaciones.Add(new Donacion("Gabriel", "17", "O+"));
 
         }
-
+        #endregion
     }
 }
