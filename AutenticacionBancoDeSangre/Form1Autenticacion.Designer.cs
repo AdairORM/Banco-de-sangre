@@ -43,7 +43,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(277, 34);
+            this.label1.Location = new System.Drawing.Point(278, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(179, 43);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(294, 77);
+            this.label2.Location = new System.Drawing.Point(295, 89);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(139, 43);
             this.label2.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(97, 171);
+            this.label3.Location = new System.Drawing.Point(98, 183);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 18);
             this.label3.TabIndex = 2;
@@ -73,7 +73,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(88, 231);
+            this.label4.Location = new System.Drawing.Point(89, 243);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 18);
             this.label4.TabIndex = 2;
@@ -81,21 +81,21 @@
             // 
             // txtbUsuario
             // 
-            this.txtbUsuario.Location = new System.Drawing.Point(214, 169);
+            this.txtbUsuario.Location = new System.Drawing.Point(215, 181);
             this.txtbUsuario.Name = "txtbUsuario";
             this.txtbUsuario.Size = new System.Drawing.Size(271, 20);
             this.txtbUsuario.TabIndex = 3;
             // 
             // txtbContraseña
             // 
-            this.txtbContraseña.Location = new System.Drawing.Point(214, 232);
+            this.txtbContraseña.Location = new System.Drawing.Point(215, 244);
             this.txtbContraseña.Name = "txtbContraseña";
             this.txtbContraseña.Size = new System.Drawing.Size(271, 20);
             this.txtbContraseña.TabIndex = 3;
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(277, 289);
+            this.btnIngresar.Location = new System.Drawing.Point(278, 301);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(179, 41);
             this.btnIngresar.TabIndex = 4;
@@ -105,7 +105,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AutenticacionBancoDeSangre.Properties.Resources._1fa78;
-            this.pictureBox1.Location = new System.Drawing.Point(555, 159);
+            this.pictureBox1.Location = new System.Drawing.Point(574, 157);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(121, 107);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
