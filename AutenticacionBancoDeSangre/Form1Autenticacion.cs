@@ -29,11 +29,12 @@ namespace AutenticacionBancoDeSangre
         {
             usuarios.Add(new Usuario("yo", "12"));
             usuarios.Add(new Usuario("el", "34"));
-            usuarios.Add(new Usuario("tu", "56"));
         }
 
-        private void btnEntrar_Click(object sender, EventArgs e)
+
+        private void btnEntrar_Click_1(object sender, EventArgs e)
         {
+
             //
             string usuario = txtbUsuario.Text;
             string password = txtbContraseña.Text;
@@ -68,7 +69,6 @@ namespace AutenticacionBancoDeSangre
 
             }
             //
-
         }
     }
 }

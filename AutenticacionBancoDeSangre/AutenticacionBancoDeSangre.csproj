@@ -78,7 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LibreriaUsuario\LibreriaUsuario.csproj">
-      <Project>{0d7bd185-39f1-4109-b206-c9510cf1ac4a}</Project>
+      <Project>{1d51be35-e74a-43c0-bcf0-eb1dcfbbe463}</Project>
       <Name>LibreriaUsuario</Name>
     </ProjectReference>
   </ItemGroup>
