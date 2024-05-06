@@ -1,14 +1,9 @@
 ﻿using LibreriaUsuario;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Banco_de_sangre;
+
 
 namespace AutenticacionBancoDeSangre
 {
@@ -48,8 +43,8 @@ namespace AutenticacionBancoDeSangre
                 {
                     if (usuario == usuarioPass.Nombre && password == usuarioPass.Password)
                     {
-                        Form1 formReproductor = new Form1();
-                        formReproductor.Show();
+                        FormBanco formBanco = new FormBanco();
+                        formBanco.Show();
 
                     }
 

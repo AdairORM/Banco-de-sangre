@@ -1,6 +1,6 @@
 ﻿namespace Banco_de_sangre
 {
-    partial class Form1
+    partial class FormBanco
     {
         /// <summary>
         /// Variable del diseñador necesaria.

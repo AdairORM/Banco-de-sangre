@@ -39,6 +39,7 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Donacion.cs" />
     <Compile Include="Form1Autenticacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +78,10 @@
     <None Include="Resources\1fa78.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Banco de sangre\Banco de sangre.csproj">
+      <Project>{e2cf4daa-589a-4487-a69f-2cda730c034a}</Project>
+      <Name>Banco de sangre</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LibreriaUsuario\LibreriaUsuario.csproj">
       <Project>{1d51be35-e74a-43c0-bcf0-eb1dcfbbe463}</Project>
       <Name>LibreriaUsuario</Name>
