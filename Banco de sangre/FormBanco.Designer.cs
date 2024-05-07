@@ -57,7 +57,6 @@
             this.label26 = new System.Windows.Forms.Label();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.donantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.donacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configuraciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -343,8 +342,7 @@
             // 
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nuevaDonacionToolStripMenuItem,
-            this.donantesToolStripMenuItem,
-            this.donacionesToolStripMenuItem});
+            this.donantesToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.menuToolStripMenuItem.Text = "Menu";
@@ -354,12 +352,6 @@
             this.donantesToolStripMenuItem.Name = "donantesToolStripMenuItem";
             this.donantesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.donantesToolStripMenuItem.Text = "Donantes";
-            // 
-            // donacionesToolStripMenuItem
-            // 
-            this.donacionesToolStripMenuItem.Name = "donacionesToolStripMenuItem";
-            this.donacionesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.donacionesToolStripMenuItem.Text = "Donaciones";
             // 
             // configuraciónToolStripMenuItem
             // 
@@ -559,7 +551,6 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem donantesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem donacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem configuraciónToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.PictureBox pictureBox1;

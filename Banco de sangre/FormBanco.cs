@@ -18,8 +18,8 @@ namespace Banco_de_sangre
         #region Metodos
         private void DonacionesDefault()
         {
-            donaciones.Add(new Donacion("Gabriel", "18", "O+",1));
-            donaciones.Add(new Donacion("Francisco", "22", "A-",1.2));
+            donaciones.Add(new Donacion("Gabriel", "18", "O+",0.5));
+            donaciones.Add(new Donacion("Francisco", "22", "A-",0.2));
 
 
 
@@ -52,8 +52,10 @@ namespace Banco_de_sangre
 
         private void nuevaDonacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
+          
             NuevaDonacion nuevaDonacion = new NuevaDonacion();
             nuevaDonacion.ShowDialog();
+            lbBPositivo.Text = "0.4";
         }
     }
 }

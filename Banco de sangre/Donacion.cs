@@ -23,12 +23,12 @@ namespace Banco_de_sangre
         #endregion
 
         #region Constructor
-        public Donacion(string nombre, string edad, string típoDeSangre, double litros)
+        public Donacion(string nombre, string edad, string típoDeSangre, double mililitros)
         {
             Nombre = nombre;
             Edad = edad;
             TipoDeSangre = tipoDeSangre;
-            Mililitros = litros;
+            Mililitros = mililitros;
         }
         #endregion
 
