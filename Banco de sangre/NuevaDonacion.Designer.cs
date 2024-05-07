@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NuevaDonacion));
             this.btnaAgregar = new System.Windows.Forms.Button();
-            this.txtbDuracion = new System.Windows.Forms.TextBox();
-            this.txtbAlbum = new System.Windows.Forms.TextBox();
-            this.txtbArtista = new System.Windows.Forms.TextBox();
+            this.txtbTipodeSangre = new System.Windows.Forms.TextBox();
+            this.txtbMililitros = new System.Windows.Forms.TextBox();
+            this.txtbEdad = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtbTitulo = new System.Windows.Forms.TextBox();
+            this.txtbNombre = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,48 +48,49 @@
             this.btnaAgregar.TabIndex = 11;
             this.btnaAgregar.Text = "Agregar";
             this.btnaAgregar.UseVisualStyleBackColor = true;
+            this.btnaAgregar.Click += new System.EventHandler(this.btnaAgregar_Click);
             // 
-            // txtbDuracion
+            // txtbTipodeSangre
             // 
-            this.txtbDuracion.Location = new System.Drawing.Point(213, 192);
-            this.txtbDuracion.Name = "txtbDuracion";
-            this.txtbDuracion.Size = new System.Drawing.Size(191, 20);
-            this.txtbDuracion.TabIndex = 7;
+            this.txtbTipodeSangre.Location = new System.Drawing.Point(213, 134);
+            this.txtbTipodeSangre.Name = "txtbTipodeSangre";
+            this.txtbTipodeSangre.Size = new System.Drawing.Size(191, 20);
+            this.txtbTipodeSangre.TabIndex = 7;
             // 
-            // txtbAlbum
+            // txtbMililitros
             // 
-            this.txtbAlbum.Location = new System.Drawing.Point(213, 143);
-            this.txtbAlbum.Name = "txtbAlbum";
-            this.txtbAlbum.Size = new System.Drawing.Size(191, 20);
-            this.txtbAlbum.TabIndex = 8;
+            this.txtbMililitros.Location = new System.Drawing.Point(213, 189);
+            this.txtbMililitros.Name = "txtbMililitros";
+            this.txtbMililitros.Size = new System.Drawing.Size(191, 20);
+            this.txtbMililitros.TabIndex = 8;
             // 
-            // txtbArtista
+            // txtbEdad
             // 
-            this.txtbArtista.Location = new System.Drawing.Point(213, 86);
-            this.txtbArtista.Name = "txtbArtista";
-            this.txtbArtista.Size = new System.Drawing.Size(191, 20);
-            this.txtbArtista.TabIndex = 9;
+            this.txtbEdad.Location = new System.Drawing.Point(213, 86);
+            this.txtbEdad.Name = "txtbEdad";
+            this.txtbEdad.Size = new System.Drawing.Size(191, 20);
+            this.txtbEdad.TabIndex = 9;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(61, 192);
+            this.label4.Location = new System.Drawing.Point(61, 137);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "Tipo de sangre";
             // 
-            // txtbTitulo
+            // txtbNombre
             // 
-            this.txtbTitulo.Location = new System.Drawing.Point(213, 35);
-            this.txtbTitulo.Name = "txtbTitulo";
-            this.txtbTitulo.Size = new System.Drawing.Size(191, 20);
-            this.txtbTitulo.TabIndex = 10;
+            this.txtbNombre.Location = new System.Drawing.Point(213, 35);
+            this.txtbNombre.Name = "txtbNombre";
+            this.txtbNombre.Size = new System.Drawing.Size(191, 20);
+            this.txtbNombre.TabIndex = 10;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(61, 143);
+            this.label3.Location = new System.Drawing.Point(77, 196);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 4;
@@ -119,11 +120,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(524, 336);
             this.Controls.Add(this.btnaAgregar);
-            this.Controls.Add(this.txtbDuracion);
-            this.Controls.Add(this.txtbAlbum);
-            this.Controls.Add(this.txtbArtista);
+            this.Controls.Add(this.txtbTipodeSangre);
+            this.Controls.Add(this.txtbMililitros);
+            this.Controls.Add(this.txtbEdad);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtbTitulo);
+            this.Controls.Add(this.txtbNombre);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -138,11 +139,11 @@
         #endregion
 
         private System.Windows.Forms.Button btnaAgregar;
-        private System.Windows.Forms.TextBox txtbDuracion;
-        private System.Windows.Forms.TextBox txtbAlbum;
-        private System.Windows.Forms.TextBox txtbArtista;
+        private System.Windows.Forms.TextBox txtbTipodeSangre;
+        private System.Windows.Forms.TextBox txtbMililitros;
+        private System.Windows.Forms.TextBox txtbEdad;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtbTitulo;
+        private System.Windows.Forms.TextBox txtbNombre;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

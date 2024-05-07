@@ -32,28 +32,28 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbAPositivo = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lbANegativo = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lbBNegativo = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lbBPositivo = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lbABNegativo = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.lbABPositivo = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.lbONegativo = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
+            this.lbOPositivo = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.donantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -109,15 +109,15 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "A  +";
             // 
-            // label4
+            // lbAPositivo
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(53, 117);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(15, 15);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "1";
+            this.lbAPositivo.AutoSize = true;
+            this.lbAPositivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAPositivo.Location = new System.Drawing.Point(53, 117);
+            this.lbAPositivo.Name = "lbAPositivo";
+            this.lbAPositivo.Size = new System.Drawing.Size(35, 15);
+            this.lbAPositivo.TabIndex = 6;
+            this.lbAPositivo.Text = "0.45";
             // 
             // label5
             // 
@@ -139,15 +139,15 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "[ L ]";
             // 
-            // label7
+            // lbANegativo
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(53, 202);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(15, 15);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "1";
+            this.lbANegativo.AutoSize = true;
+            this.lbANegativo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbANegativo.Location = new System.Drawing.Point(53, 202);
+            this.lbANegativo.Name = "lbANegativo";
+            this.lbANegativo.Size = new System.Drawing.Size(35, 15);
+            this.lbANegativo.TabIndex = 9;
+            this.lbANegativo.Text = "1.35";
             // 
             // label8
             // 
@@ -169,15 +169,15 @@
             this.label9.TabIndex = 16;
             this.label9.Text = "[ L ]";
             // 
-            // label10
+            // lbBNegativo
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(205, 202);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(15, 15);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "1";
+            this.lbBNegativo.AutoSize = true;
+            this.lbBNegativo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbBNegativo.Location = new System.Drawing.Point(205, 202);
+            this.lbBNegativo.Name = "lbBNegativo";
+            this.lbBNegativo.Size = new System.Drawing.Size(15, 15);
+            this.lbBNegativo.TabIndex = 15;
+            this.lbBNegativo.Text = "1";
             // 
             // label11
             // 
@@ -199,15 +199,15 @@
             this.label12.TabIndex = 13;
             this.label12.Text = "[ L ]";
             // 
-            // label13
+            // lbBPositivo
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(205, 117);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(15, 15);
-            this.label13.TabIndex = 12;
-            this.label13.Text = "1";
+            this.lbBPositivo.AutoSize = true;
+            this.lbBPositivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbBPositivo.Location = new System.Drawing.Point(205, 117);
+            this.lbBPositivo.Name = "lbBPositivo";
+            this.lbBPositivo.Size = new System.Drawing.Size(15, 15);
+            this.lbBPositivo.TabIndex = 12;
+            this.lbBPositivo.Text = "0";
             // 
             // label14
             // 
@@ -229,15 +229,15 @@
             this.label15.TabIndex = 22;
             this.label15.Text = "[ L ]";
             // 
-            // label16
+            // lbABNegativo
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(359, 202);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(15, 15);
-            this.label16.TabIndex = 21;
-            this.label16.Text = "1";
+            this.lbABNegativo.AutoSize = true;
+            this.lbABNegativo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbABNegativo.Location = new System.Drawing.Point(359, 202);
+            this.lbABNegativo.Name = "lbABNegativo";
+            this.lbABNegativo.Size = new System.Drawing.Size(15, 15);
+            this.lbABNegativo.TabIndex = 21;
+            this.lbABNegativo.Text = "0";
             // 
             // label17
             // 
@@ -259,15 +259,15 @@
             this.label18.TabIndex = 19;
             this.label18.Text = "[ L ]";
             // 
-            // label19
+            // lbABPositivo
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(359, 117);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(15, 15);
-            this.label19.TabIndex = 18;
-            this.label19.Text = "1";
+            this.lbABPositivo.AutoSize = true;
+            this.lbABPositivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbABPositivo.Location = new System.Drawing.Point(359, 117);
+            this.lbABPositivo.Name = "lbABPositivo";
+            this.lbABPositivo.Size = new System.Drawing.Size(27, 15);
+            this.lbABPositivo.TabIndex = 18;
+            this.lbABPositivo.Text = "0.9";
             // 
             // label20
             // 
@@ -289,15 +289,15 @@
             this.label21.TabIndex = 28;
             this.label21.Text = "[ L ]";
             // 
-            // label22
+            // lbONegativo
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(520, 202);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(15, 15);
-            this.label22.TabIndex = 27;
-            this.label22.Text = "1";
+            this.lbONegativo.AutoSize = true;
+            this.lbONegativo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbONegativo.Location = new System.Drawing.Point(520, 202);
+            this.lbONegativo.Name = "lbONegativo";
+            this.lbONegativo.Size = new System.Drawing.Size(15, 15);
+            this.lbONegativo.TabIndex = 27;
+            this.lbONegativo.Text = "1";
             // 
             // label23
             // 
@@ -319,15 +319,15 @@
             this.label24.TabIndex = 25;
             this.label24.Text = "[ L ]";
             // 
-            // label25
+            // lbOPositivo
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(520, 117);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(15, 15);
-            this.label25.TabIndex = 24;
-            this.label25.Text = "1";
+            this.lbOPositivo.AutoSize = true;
+            this.lbOPositivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbOPositivo.Location = new System.Drawing.Point(520, 117);
+            this.lbOPositivo.Name = "lbOPositivo";
+            this.lbOPositivo.Size = new System.Drawing.Size(35, 15);
+            this.lbOPositivo.TabIndex = 24;
+            this.lbOPositivo.Text = "2.25";
             // 
             // label26
             // 
@@ -484,28 +484,28 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.label22);
+            this.Controls.Add(this.lbONegativo);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label24);
-            this.Controls.Add(this.label25);
+            this.Controls.Add(this.lbOPositivo);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
+            this.Controls.Add(this.lbABNegativo);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.label19);
+            this.Controls.Add(this.lbABPositivo);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lbBNegativo);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.lbBPositivo);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lbANegativo);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lbAPositivo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label2);
@@ -534,28 +534,28 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbAPositivo;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lbANegativo;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lbBNegativo;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lbBPositivo;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lbABNegativo;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lbABPositivo;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label lbONegativo;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label lbOPositivo;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem donantesToolStripMenuItem;
