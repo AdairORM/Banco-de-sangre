@@ -7,11 +7,11 @@ using Banco_de_sangre;
 
 namespace AutenticacionBancoDeSangre
 {
-    public partial class Form1 : Form
+    public partial class Inicio : Form
     {
         ArrayList usuarios;
 
-        public Form1()
+        public Inicio()
 
         {
             InitializeComponent();
@@ -22,8 +22,8 @@ namespace AutenticacionBancoDeSangre
 
         private void AgregarUsuarios()
         {
-            usuarios.Add(new Usuario("yo", "12"));
-            usuarios.Add(new Usuario("el", "34"));
+            usuarios.Add(new Usuario("Fernanda", "318"));
+            usuarios.Add(new Usuario("Omar", "319"));
         }
 
 

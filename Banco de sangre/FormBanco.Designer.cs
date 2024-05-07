@@ -68,6 +68,7 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.nuevaDonacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -341,6 +342,7 @@
             // menuToolStripMenuItem
             // 
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nuevaDonacionToolStripMenuItem,
             this.donantesToolStripMenuItem,
             this.donacionesToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
@@ -350,13 +352,13 @@
             // donantesToolStripMenuItem
             // 
             this.donantesToolStripMenuItem.Name = "donantesToolStripMenuItem";
-            this.donantesToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.donantesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.donantesToolStripMenuItem.Text = "Donantes";
             // 
             // donacionesToolStripMenuItem
             // 
             this.donacionesToolStripMenuItem.Name = "donacionesToolStripMenuItem";
-            this.donacionesToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.donacionesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.donacionesToolStripMenuItem.Text = "Donaciones";
             // 
             // configuraciónToolStripMenuItem
@@ -372,7 +374,7 @@
             this.configuraciónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(715, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(879, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -453,19 +455,26 @@
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.pictureBox8.Enabled = false;
             this.pictureBox8.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
-            this.pictureBox8.Location = new System.Drawing.Point(613, 165);
+            this.pictureBox8.Location = new System.Drawing.Point(613, 167);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(45, 50);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 36;
             this.pictureBox8.TabStop = false;
             // 
+            // nuevaDonacionToolStripMenuItem
+            // 
+            this.nuevaDonacionToolStripMenuItem.Name = "nuevaDonacionToolStripMenuItem";
+            this.nuevaDonacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevaDonacionToolStripMenuItem.Text = "Nueva Donacion";
+            this.nuevaDonacionToolStripMenuItem.Click += new System.EventHandler(this.nuevaDonacionToolStripMenuItem_Click);
+            // 
             // FormBanco
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(715, 315);
+            this.ClientSize = new System.Drawing.Size(879, 315);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
@@ -504,7 +513,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormBanco";
-            this.Text = "Form1";
+            this.Text = "Banco de Sangre";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -561,6 +570,7 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.ToolStripMenuItem nuevaDonacionToolStripMenuItem;
     }
 }
 
