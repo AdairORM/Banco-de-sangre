@@ -57,5 +57,10 @@ namespace Banco_de_sangre
             nuevaDonacion.ShowDialog();
             lbBPositivo.Text = "0.4";
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

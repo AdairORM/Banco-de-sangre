@@ -87,11 +87,5 @@
   <ItemGroup>
     <None Include="Resources\1fa78.png" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LibreriaUsuario\LibreriaUsuario.csproj">
-      <Project>{1d51be35-e74a-43c0-bcf0-eb1dcfbbe463}</Project>
-      <Name>LibreriaUsuario</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
