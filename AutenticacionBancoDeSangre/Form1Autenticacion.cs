@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Windows.Forms;
 using Banco_de_sangre;
+using System.Drawing.Text;
 
 
 namespace AutenticacionBancoDeSangre
@@ -29,36 +30,41 @@ namespace AutenticacionBancoDeSangre
 
         private void btnEntrar_Click_1(object sender, EventArgs e)
         {
-
-            //
+            int intentosFallidos = 0;
+            
             string usuario = txtbUsuario.Text;
             string password = txtbContraseña.Text;
+            bool loginExitoso = false;
 
-            for (int i = 0; i < usuarios.Count; i++)
+            foreach (var item in usuarios)
             {
-                var usuarioPass = (Usuario)usuarios[i];
-                int a = 0;
+                var usuarioPass = (Usuario)item;
+               
 
-                if (i <= 3)
+                if (usuario == usuarioPass.Nombre && password == usuarioPass.Password)
                 {
-                    if (usuario == usuarioPass.Nombre && password == usuarioPass.Password)
-                    {
-                        FormBanco formBanco = new FormBanco();
-                        formBanco.Show();
-
-                    }
+                    loginExitoso = true;
+                    FormBanco formBanco = new FormBanco();
+                    formBanco.Show();
+                    this.Hide(); // Para ocultar el formulario de login actual
+                    break;
 
                 }
-                else
+                if (!loginExitoso)
                 {
-
-                    MessageBox.Show("Usuario o contraseña incorrecto >:/");
-                    a += a;
-                    if (a == 4)
+                   
+                    if (intentosFallidos == 2)
                     {
-                        MessageBox.Show("Demasiados intentos");
+                        MessageBox.Show("Demasiados intentos. El acceso ha sido bloqueado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        // Puedes agregar lógica adicional aquí, como deshabilitar el botón o cerrar la aplicación.
+                        btnEntrar.Enabled = false;
                     }
-
+                    else
+                    {
+                        MessageBox.Show("Contraseña o usuario erróneo.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    intentosFallidos++;
+                    break;
                 }
 
 
