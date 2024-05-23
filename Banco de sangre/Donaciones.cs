@@ -15,10 +15,11 @@ namespace Banco_de_sangre
     public partial class Donaciones : Form
 
     {
-        private static ArrayList donaciones = new ArrayList();
+        private ArrayList donaciones;
         public Donaciones()
         {
             InitializeComponent();
+            donaciones = FormBanco.Donaciones; // Acceder a las donaciones del FormBanco
             CargarDonaciones();
         }
 
@@ -40,6 +41,8 @@ namespace Banco_de_sangre
             donaciones.Add(donacion);
             // Actualizar la lista de donaciones en el formulario FormBanco
             lstbListaDonantes.Items.Add(donacion.Nombre);
+            FormBanco formBanco = Application.OpenForms.OfType<FormBanco>().FirstOrDefault();
+            formBanco?.ActualizarLabels();
         }
 
         private void cargToolStripMenuItem_Click(object sender, EventArgs e)
@@ -52,7 +55,7 @@ namespace Banco_de_sangre
         {
             if (donaciones.Count == 0) // Solo agregar donaciones por defecto si la lista está vacía
             {
-                donaciones.Add(new Donacion("Gabriel", 18, "O", 0.5));
+                donaciones.Add(new Donacion("Gabriel", 18, "O+", 0.5));
                 donaciones.Add(new Donacion("Francisco", 22, "A-", 0.2));
                 CargarDonaciones();
             }
