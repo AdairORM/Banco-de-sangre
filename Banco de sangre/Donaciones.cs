@@ -36,7 +36,9 @@ namespace Banco_de_sangre
 
         internal void AgregarDonación(Donacion donacion)
         {
+            // Agregar la nueva donación a la lista de donaciones
             donaciones.Add(donacion);
+            // Actualizar la lista de donaciones en el formulario FormBanco
             lstbListaDonantes.Items.Add(donacion.Nombre);
         }
 

@@ -8,17 +8,17 @@ namespace Banco_de_sangre
 {
     public partial class FormBanco : Form
     {
-        
+
         public FormBanco()
         {
             InitializeComponent();
-            
+
         }
 
         #region Metodos
-        
 
-       
+
+
 
         /*
         public int ContarDonacionesPorTipoSangre(string tipoSangre)
@@ -41,7 +41,7 @@ namespace Banco_de_sangre
 
         private void nuevaDonacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          
+
             NuevaDonacion nuevaDonacion = new NuevaDonacion();
             nuevaDonacion.ShowDialog();
 
@@ -49,7 +49,7 @@ namespace Banco_de_sangre
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
             this.Close();
         }
 
