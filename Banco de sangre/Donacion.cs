@@ -10,20 +10,20 @@ namespace Banco_de_sangre
     {
         #region Atributos
         private string nombre;
-        private string edad;
+        private int edad;
         private string tipoDeSangre;
         private double mililitros;
         #endregion
 
         #region Propiedades
         public string Nombre { get => nombre; set => nombre = value; }
-        public string Edad { get => edad; set => edad = value; }
+        public int Edad { get => edad; set => edad = value; }
         public string TipoDeSangre { get => tipoDeSangre; set => tipoDeSangre = value; }
         public double Mililitros { get => mililitros; set => mililitros = value; }
         #endregion
 
         #region Constructor
-        public Donacion(string nombre, string edad, string típoDeSangre, double mililitros)
+        public Donacion(string nombre, int edad, string tipoDeSangre, double mililitros)
         {
             Nombre = nombre;
             Edad = edad;

@@ -8,28 +8,17 @@ namespace Banco_de_sangre
 {
     public partial class FormBanco : Form
     {
-        private ArrayList donaciones;
+        
         public FormBanco()
         {
             InitializeComponent();
-            donaciones = new ArrayList();
+            
         }
 
         #region Metodos
-        private void DonacionesDefault()
-        {
-            donaciones.Add(new Donacion("Gabriel", "18", "O+",0.5));
-            donaciones.Add(new Donacion("Francisco", "22", "A-",0.2));
+        
 
-
-
-        }
-
-        internal void AgregarDonacion(Donacion donacion)
-        {
-            donaciones.Add(donacion);
-
-        }
+       
 
         /*
         public int ContarDonacionesPorTipoSangre(string tipoSangre)
@@ -55,12 +44,20 @@ namespace Banco_de_sangre
           
             NuevaDonacion nuevaDonacion = new NuevaDonacion();
             nuevaDonacion.ShowDialog();
-            lbBPositivo.Text = "0.4";
+
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
             this.Close();
+        }
+
+        private void donantesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Donaciones donaciones = new Donaciones();
+            donaciones.ShowDialog();
+
         }
     }
 }

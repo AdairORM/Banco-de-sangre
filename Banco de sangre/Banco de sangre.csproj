@@ -41,6 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Donacion.cs" />
+    <Compile Include="Donaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donaciones.Designer.cs">
+      <DependentUpon>Donaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBanco.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Donaciones.resx">
+      <DependentUpon>Donaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormBanco.resx">
       <DependentUpon>FormBanco.cs</DependentUpon>
     </EmbeddedResource>

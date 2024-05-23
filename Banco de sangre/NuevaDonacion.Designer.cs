@@ -38,11 +38,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnSalirNuDonacion = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnaAgregar
             // 
-            this.btnaAgregar.Location = new System.Drawing.Point(167, 249);
+            this.btnaAgregar.Location = new System.Drawing.Point(107, 251);
             this.btnaAgregar.Name = "btnaAgregar";
             this.btnaAgregar.Size = new System.Drawing.Size(146, 41);
             this.btnaAgregar.TabIndex = 11;
@@ -114,11 +115,22 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Nombre";
             // 
+            // btnSalirNuDonacion
+            // 
+            this.btnSalirNuDonacion.Location = new System.Drawing.Point(337, 251);
+            this.btnSalirNuDonacion.Name = "btnSalirNuDonacion";
+            this.btnSalirNuDonacion.Size = new System.Drawing.Size(113, 39);
+            this.btnSalirNuDonacion.TabIndex = 12;
+            this.btnSalirNuDonacion.Text = "Salir";
+            this.btnSalirNuDonacion.UseVisualStyleBackColor = true;
+            this.btnSalirNuDonacion.Click += new System.EventHandler(this.btnSalirNuDonacion_Click);
+            // 
             // NuevaDonacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(524, 336);
+            this.Controls.Add(this.btnSalirNuDonacion);
             this.Controls.Add(this.btnaAgregar);
             this.Controls.Add(this.txtbTipodeSangre);
             this.Controls.Add(this.txtbMililitros);
@@ -130,6 +142,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "NuevaDonacion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NuevaDonacion";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -147,5 +160,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnSalirNuDonacion;
     }
 }

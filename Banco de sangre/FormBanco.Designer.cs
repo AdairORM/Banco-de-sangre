@@ -56,28 +56,27 @@
             this.lbOPositivo = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nuevaDonacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.donantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configuraciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -115,9 +114,9 @@
             this.lbAPositivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbAPositivo.Location = new System.Drawing.Point(53, 117);
             this.lbAPositivo.Name = "lbAPositivo";
-            this.lbAPositivo.Size = new System.Drawing.Size(35, 15);
+            this.lbAPositivo.Size = new System.Drawing.Size(15, 15);
             this.lbAPositivo.TabIndex = 6;
-            this.lbAPositivo.Text = "0.45";
+            this.lbAPositivo.Text = "0";
             // 
             // label5
             // 
@@ -145,9 +144,9 @@
             this.lbANegativo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbANegativo.Location = new System.Drawing.Point(53, 202);
             this.lbANegativo.Name = "lbANegativo";
-            this.lbANegativo.Size = new System.Drawing.Size(35, 15);
+            this.lbANegativo.Size = new System.Drawing.Size(15, 15);
             this.lbANegativo.TabIndex = 9;
-            this.lbANegativo.Text = "1.35";
+            this.lbANegativo.Text = "0";
             // 
             // label8
             // 
@@ -177,7 +176,7 @@
             this.lbBNegativo.Name = "lbBNegativo";
             this.lbBNegativo.Size = new System.Drawing.Size(15, 15);
             this.lbBNegativo.TabIndex = 15;
-            this.lbBNegativo.Text = "1";
+            this.lbBNegativo.Text = "0";
             // 
             // label11
             // 
@@ -265,9 +264,9 @@
             this.lbABPositivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbABPositivo.Location = new System.Drawing.Point(359, 117);
             this.lbABPositivo.Name = "lbABPositivo";
-            this.lbABPositivo.Size = new System.Drawing.Size(27, 15);
+            this.lbABPositivo.Size = new System.Drawing.Size(15, 15);
             this.lbABPositivo.TabIndex = 18;
-            this.lbABPositivo.Text = "0.9";
+            this.lbABPositivo.Text = "0";
             // 
             // label20
             // 
@@ -297,7 +296,7 @@
             this.lbONegativo.Name = "lbONegativo";
             this.lbONegativo.Size = new System.Drawing.Size(15, 15);
             this.lbONegativo.TabIndex = 27;
-            this.lbONegativo.Text = "1";
+            this.lbONegativo.Text = "0";
             // 
             // label23
             // 
@@ -325,9 +324,9 @@
             this.lbOPositivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbOPositivo.Location = new System.Drawing.Point(520, 117);
             this.lbOPositivo.Name = "lbOPositivo";
-            this.lbOPositivo.Size = new System.Drawing.Size(35, 15);
+            this.lbOPositivo.Size = new System.Drawing.Size(15, 15);
             this.lbOPositivo.TabIndex = 24;
-            this.lbOPositivo.Text = "2.25";
+            this.lbOPositivo.Text = "0";
             // 
             // label26
             // 
@@ -342,25 +341,25 @@
             // menuToolStripMenuItem
             // 
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nuevaDonacionToolStripMenuItem,
             this.donantesToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.menuToolStripMenuItem.Text = "Menu";
             // 
-            // nuevaDonacionToolStripMenuItem
-            // 
-            this.nuevaDonacionToolStripMenuItem.Name = "nuevaDonacionToolStripMenuItem";
-            this.nuevaDonacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.nuevaDonacionToolStripMenuItem.Text = "Nueva Donacion";
-            this.nuevaDonacionToolStripMenuItem.Click += new System.EventHandler(this.nuevaDonacionToolStripMenuItem_Click);
-            // 
             // donantesToolStripMenuItem
             // 
             this.donantesToolStripMenuItem.Name = "donantesToolStripMenuItem";
             this.donantesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.donantesToolStripMenuItem.Text = "Donantes";
+            this.donantesToolStripMenuItem.Text = "Donaciones";
+            this.donantesToolStripMenuItem.Click += new System.EventHandler(this.donantesToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // configuraciónToolStripMenuItem
             // 
@@ -375,69 +374,23 @@
             this.configuraciónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(879, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(711, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // pictureBox1
+            // pictureBox8
             // 
-            this.pictureBox1.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
-            this.pictureBox1.Location = new System.Drawing.Point(613, 92);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
-            this.pictureBox2.Location = new System.Drawing.Point(133, 92);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 30;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
-            this.pictureBox3.Location = new System.Drawing.Point(288, 92);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(45, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 31;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
-            this.pictureBox4.Location = new System.Drawing.Point(133, 165);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(45, 50);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 32;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
-            this.pictureBox5.Location = new System.Drawing.Point(449, 92);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(45, 50);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 33;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
-            this.pictureBox6.Location = new System.Drawing.Point(288, 165);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(45, 50);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 34;
-            this.pictureBox6.TabStop = false;
+            this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.pictureBox8.Enabled = false;
+            this.pictureBox8.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
+            this.pictureBox8.Location = new System.Drawing.Point(613, 165);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(45, 50);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 36;
+            this.pictureBox8.TabStop = false;
             // 
             // pictureBox7
             // 
@@ -449,33 +402,72 @@
             this.pictureBox7.TabIndex = 35;
             this.pictureBox7.TabStop = false;
             // 
-            // pictureBox8
+            // pictureBox6
             // 
-            this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pictureBox8.Enabled = false;
-            this.pictureBox8.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
-            this.pictureBox8.Location = new System.Drawing.Point(613, 167);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(45, 50);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 36;
-            this.pictureBox8.TabStop = false;
+            this.pictureBox6.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
+            this.pictureBox6.Location = new System.Drawing.Point(288, 165);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(45, 50);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 34;
+            this.pictureBox6.TabStop = false;
             // 
-            // salirToolStripMenuItem
+            // pictureBox5
             // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            this.pictureBox5.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
+            this.pictureBox5.Location = new System.Drawing.Point(449, 92);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(45, 50);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 33;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
+            this.pictureBox4.Location = new System.Drawing.Point(133, 165);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(45, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 32;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
+            this.pictureBox3.Location = new System.Drawing.Point(288, 92);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(45, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 31;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
+            this.pictureBox2.Location = new System.Drawing.Point(133, 92);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(45, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 30;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Banco_de_sangre.Properties.Resources._1fa78;
+            this.pictureBox1.Location = new System.Drawing.Point(613, 92);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
             // 
             // FormBanco
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(879, 315);
+            this.ClientSize = new System.Drawing.Size(711, 272);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
@@ -514,17 +506,18 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormBanco";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Banco de Sangre";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -570,7 +563,6 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.ToolStripMenuItem nuevaDonacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }
