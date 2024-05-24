@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
@@ -50,20 +51,21 @@ namespace Banco_de_sangre
             }
 
             return mililitrosPorTipoSangre;
+
         }
 
         // Método para actualizar los labels en el formulario
         public void ActualizarLabels()
         {
             var mililitrosPorTipoSangre = ContarMililitrosPorTipoSangre();
-            lbOPositivo.Text = $"O+: {mililitrosPorTipoSangre["O+"]} ";
-            lbONegativo.Text = $"O-: {mililitrosPorTipoSangre["O-"]} ";
-            lbAPositivo.Text = $"A+: {mililitrosPorTipoSangre["A+"]} ";
-            lbANegativo.Text = $"A-: {mililitrosPorTipoSangre["A-"]} ";
-            lbBPositivo.Text = $"B+: {mililitrosPorTipoSangre["B+"]} ";
-            lbBNegativo.Text = $"B-: {mililitrosPorTipoSangre["B-"]} ";
-            lbABPositivo.Text = $"AB+: {mililitrosPorTipoSangre["AB+"]} ";
-            lbABNegativo.Text = $"AB-: {mililitrosPorTipoSangre["AB-"]} ";
+            lbOPositivo.Text = $" {mililitrosPorTipoSangre["O+"]} ";
+            lbONegativo.Text = $" {mililitrosPorTipoSangre["O-"]} ";
+            lbAPositivo.Text = $" {mililitrosPorTipoSangre["A+"]} ";
+            lbANegativo.Text = $" {mililitrosPorTipoSangre["A-"]} ";
+            lbBPositivo.Text = $" {mililitrosPorTipoSangre["B+"]} ";
+            lbBNegativo.Text = $" {mililitrosPorTipoSangre["B-"]} ";
+            lbABPositivo.Text = $" {mililitrosPorTipoSangre["AB+"]} ";
+            lbABNegativo.Text = $" {mililitrosPorTipoSangre["AB-"]} ";
         }
 
         // Método para agregar una donación y actualizar los labels
@@ -72,6 +74,42 @@ namespace Banco_de_sangre
             donaciones.Add(donacion);
             ActualizarLabels();
         }
+
+        public bool ExtraerSangre(string tipoSangre, double mililitros)
+        {
+            double cantidadDisponible = ContarMililitrosPorTipoSangre()[tipoSangre];
+            if (mililitros > cantidadDisponible)
+            {
+                return false;
+            }
+
+            foreach (Donacion donacion in donaciones)
+            {
+                if (donacion.TipoDeSangre == tipoSangre)
+                {
+                    if (donacion.Mililitros >= mililitros)
+                    {
+                        donacion.Mililitros -= mililitros;
+                        mililitros = 0;
+                    }
+                    else
+                    {
+                        mililitros -= donacion.Mililitros;
+                        donacion.Mililitros = 0;
+                    }
+
+                    if (mililitros == 0)
+                    {
+                        break;
+                    }
+                }
+            }
+
+            donaciones = new ArrayList(donaciones.Cast<Donacion>().Where(d => d.Mililitros > 0).ToArray());
+            ActualizarLabels();
+            return true;
+        }
+
 
         #endregion
 
@@ -84,17 +122,24 @@ namespace Banco_de_sangre
 
         }
 
-        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-            this.Close();
-        }
-
+        
         private void donantesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Donaciones donaciones = new Donaciones();
             donaciones.ShowDialog();
 
+        }
+
+        private void salirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
+
+        private void transfusionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Transfusiones transfusionesForm = new Transfusiones();
+            transfusionesForm.ShowDialog();
         }
     }
 }
