@@ -22,7 +22,7 @@ namespace LibreriaUsuario
             {
                 if (value == "")
                 {
-                    nombre = "Anonymous";
+                    nombre = "";
                 }
                 else
                 {
@@ -39,7 +39,7 @@ namespace LibreriaUsuario
             {
                 if (value == "")
                 {
-                    password = GenerateRandPassword(15);
+                    password ="";
                 }
                 else
                 {
@@ -49,32 +49,6 @@ namespace LibreriaUsuario
             }
         }
 
-        #endregion
-
-        #region Métodos
-
-        private string GenerateRandPassword(int longPass)
-        {
-            Random random = new Random();
-            string password = "";
-
-
-            for (int i = 0; i < longPass; i++)
-            {
-                var aleatorio = (char)random.Next(255);
-                if (aleatorio > 20 & aleatorio < 127)
-                {
-
-
-                }
-                else
-                {
-                    password += (char)aleatorio;
-                }
-
-            }
-            return password;
-        }
         #endregion
 
 
