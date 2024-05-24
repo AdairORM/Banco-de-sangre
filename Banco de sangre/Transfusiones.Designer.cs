@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Transfusiones));
             this.label1 = new System.Windows.Forms.Label();
             this.txtbMililitros = new System.Windows.Forms.TextBox();
             this.btnExtraer = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.cbTipoSangre = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -91,18 +93,29 @@
             this.cbTipoSangre.Size = new System.Drawing.Size(121, 21);
             this.cbTipoSangre.TabIndex = 3;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(162, 105);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(19, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "[L]";
+            // 
             // Transfusiones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(441, 269);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.cbTipoSangre);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnExtraer);
             this.Controls.Add(this.txtbMililitros);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Transfusiones";
             this.Text = "Transfusiones";
             this.ResumeLayout(false);
@@ -118,5 +131,6 @@
         private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbTipoSangre;
+        private System.Windows.Forms.Label label3;
     }
 }

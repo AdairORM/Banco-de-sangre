@@ -28,6 +28,20 @@ namespace Banco_de_sangre
                 MessageBox.Show("Por favor, ingresa valores válidos para edad y mililitros.");
                 return;
             }
+
+            string tipoSangre = txtbTipodeSangre.Text.ToUpper(); // Convertir a mayúsculas para evitar problemas de formato
+
+            // Lista de tipos de sangre válidos
+            string[] tiposValidos = { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" };
+
+            // Validar si el tipo de sangre ingresado es válido
+            if (!Array.Exists(tiposValidos, tipo => tipo == tipoSangre))
+            {
+                MessageBox.Show("Por favor, ingresa un tipo de sangre válido (A+, A-, B+, B-, AB+, AB-, O+, O-).");
+                return;
+            }
+
+
             Donacion nuevaDonacion = new Donacion(txtbNombre.Text, edad, txtbTipodeSangre.Text, mililitros);
 
             if (EnviarDonacion != null)
