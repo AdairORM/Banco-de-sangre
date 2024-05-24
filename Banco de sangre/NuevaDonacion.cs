@@ -18,6 +18,11 @@ namespace Banco_de_sangre
             int edad;
             bool esNumero = double.TryParse(txtbMililitros.Text, out mililitros);
             bool esEdad = int.TryParse(txtbEdad.Text,out edad);
+            if (edad < 18)
+            {
+                MessageBox.Show("Para realizar una donación debes de ser mayor de 18 años.");
+                return;
+            }
             if (!esNumero || !esEdad)
             {
                 MessageBox.Show("Por favor, ingresa valores válidos para edad y mililitros.");
@@ -34,6 +39,7 @@ namespace Banco_de_sangre
                 txtbTipodeSangre.Clear();
                 txtbMililitros.Clear();
             }
+            
             else
             {
                 MessageBox.Show("No hay suscriptores para el evento EnviarDonacion.");
