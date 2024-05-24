@@ -71,5 +71,12 @@ namespace AutenticacionBancoDeSangre
             }
             //
         }
+
+        
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bienvenido \n\n  Para poder acceder por favor ingresa el usuario y la contraseña \n Sugerencia, entrar con: \n \n Fernanda \n  \n 318");
+
+        }
     }
 }

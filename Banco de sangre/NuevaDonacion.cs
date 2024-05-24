@@ -66,5 +66,11 @@ namespace Banco_de_sangre
         {
             this.Close();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Por favor ingresa el nombre, de preferencia iniciando con mayúsculas \n \n Ingresa la edad del paciente solo en número \n \n Para ingresar el tipo de sangre (RH) Solo en mayúsculas y el signo sin espacios + o -  \n \n Ingresa la cantidad de sangre a guardar en litros \n 450 ml  = 0.45 L");
+
+        }
     }
 }
